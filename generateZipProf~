@@ -1,0 +1,10 @@
+#!/bin/bash
+FDATE=`date +'%y%m%d_%H%M'`
+
+zip -r /tmp/lab1hash${FDATE}.zip * -x srcok\* -x build\*
+
+zip -r /tmp/lab1hashFULL${FDATE}.zip * -x build\*
+
+
+
+
