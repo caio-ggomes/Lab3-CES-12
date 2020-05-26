@@ -263,7 +263,7 @@ TEST_F(SmallTests, Sort10_mymergesort_iterative) {
     test_small_vector(mymergesort_iterative);
 }//Sort10
 
-/*
+
 /// tests with 1k vector
 
 TEST_F(STL_Tests, Sort1K_stl_sort) {
@@ -315,7 +315,7 @@ TEST_F(SortTest, Sort1K_mymergesort_recursive) {
 TEST_F(SortTest, Sort1K_mymergesort_iterative) {
     test_and_log_1Kvector(mymergesort_iterative,"MRG_I_1K");
 }//Sort1K
-*/
+
 
 /// tests with many sizes vector
 

@@ -1,0 +1,11 @@
+mrgi = load('build/MRG_I_MS_RAND_200_20000.csv');
+mrgr = load('build/MRG_R_MS_RAND_200_20000.csv');
+qs1rAO = load('build/QS_1R_MS_AO_200_20000.csv');
+qs1rRAND = load('build/QS_1R_MS_RAND_200_20000.csv');
+qs2rRAND = load('build/QS_2R_MS_RAND_200_20000.csv');
+qs2rAO = load('build/QS_2R_MS_AO_200_20000.csv');
+qsfpAO = load('build/QS_FP_MS_AO_200_20000.csv');
+qsfpRAND = load('build/QS_FP_MS_RAND_200_20000.csv');
+rdx = load('build/RADIX_MS_RAND_200_20000.csv');
+stlAO = load('build/STL_SORT_MS_AO_200_20000.csv');
+stlRAND = load('build/STL_SORT_MS_RAND_200_20000.csv');

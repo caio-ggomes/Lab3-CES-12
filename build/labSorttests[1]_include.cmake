@@ -1,0 +1,5 @@
+if(EXISTS "/home/caio/ITA/5_semestre/CES-12/Labs/Lab3/build/labSorttests[1]_tests.cmake")
+  include("/home/caio/ITA/5_semestre/CES-12/Labs/Lab3/build/labSorttests[1]_tests.cmake")
+else()
+  add_test(labSorttests_NOT_BUILT labSorttests_NOT_BUILT)
+endif()
